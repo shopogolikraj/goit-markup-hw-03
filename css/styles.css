@@ -1,0 +1,158 @@
+body {
+  font-family: "roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.team-portfolio-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-portfolio-subtitle {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-portfolio-text {
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* ==========HEADER============  */
+
+.header-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo-color {
+  color: #2e2f42;
+}
+
+.header-menu-link {
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:active,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address-link {
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
+}
+
+/* ======================  */
+
+/* ==========HERO============  */
+
+.hero {
+  background: #2e2f42;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-btn {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/* ======================  */
+
+/* ==========ADVANTAGES============  */
+
+.advantages-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.advantages-text {
+  letter-spacing: 0.02em;
+}
+
+/* ======================  */
+
+/* ==========TEAM============  */
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: #ffffff;
+}
+
+/* ======================  */
+
+/* ==========FOOTER============  */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo-color {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+/* ======================  */
