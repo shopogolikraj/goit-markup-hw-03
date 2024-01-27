@@ -51,10 +51,6 @@ img {
   margin-bottom: 72px;
 }
 
-.team-portfolio-img {
-  margin-bottom: 32px;
-}
-
 .team-portfolio-subtitle {
   color: #2e2f42;
   text-align: center;
@@ -62,13 +58,12 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .team-portfolio-text {
   text-align: center;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 
 /* ==========HEADER============  */
@@ -236,6 +231,10 @@ img {
   background-color: #ffffff;
   width: calc((100% - 72) / 4);
   border-radius: 0 0 4px 4px;
+}
+
+.team-name {
+  padding: 32px 0;
 }
 
 /* ======================  */
