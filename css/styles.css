@@ -194,6 +194,15 @@ img {
   padding-bottom: 120px;
 }
 
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .advantages-subtitle {
   color: #2e2f42;
   font-size: 20px;
