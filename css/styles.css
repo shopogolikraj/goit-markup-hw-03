@@ -73,6 +73,11 @@ img {
   padding-bottom: 24px;
 }
 
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   font-family: Raleway;
   font-size: 18px;
