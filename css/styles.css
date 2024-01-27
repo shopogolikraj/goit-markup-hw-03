@@ -234,6 +234,8 @@ img {
 
 .team-list {
   background-color: #ffffff;
+  width: calc((100% - 72) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 /* ======================  */
