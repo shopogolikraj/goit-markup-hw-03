@@ -79,8 +79,12 @@ img {
   padding-bottom: 24px;
 }
 
+.header-container {
+  display: flex;
+}
+
 .header-navigation {
-  /* display: flex; */
+  display: flex;
   /* align-items: center; */
 }
 
@@ -92,6 +96,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.header-list {
+  display: flex;
 }
 
 .header-logo-color {
@@ -112,6 +120,11 @@ img {
 
 .header-address {
   font-style: normal;
+  display: flex;
+}
+
+.address-list {
+  display: flex;
 }
 
 .header-address-link {
