@@ -189,7 +189,7 @@ img {
 
 /* ==========ADVANTAGES============  */
 
-/* .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -202,7 +202,7 @@ img {
 .advantages {
   padding-top: 120px;
   padding-bottom: 120px;
-} */
+}
 
 .advantages-list {
   display: flex;
