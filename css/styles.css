@@ -39,7 +39,7 @@ img {
   padding-right: 15px;
   margin: 0 auto;
   border: 3px solid red;
-  display: flex;
+  /* display: flex; */
 }
 
 .team-portfolio-title {
@@ -68,14 +68,14 @@ img {
 /* ==========HEADER============  */
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  /* border-bottom: 1px solid #e7e9fc; */
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
 .header-navigation {
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
 }
 
 .header-logo {
