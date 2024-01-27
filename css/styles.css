@@ -172,6 +172,12 @@ img {
   letter-spacing: 0.04em;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 400;
 }
 
 .hero-btn:hover,
