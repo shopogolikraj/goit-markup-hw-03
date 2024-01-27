@@ -111,7 +111,8 @@ img {
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link:hover,
@@ -127,6 +128,7 @@ img {
 
 .address-list {
   display: flex;
+  gap: 40px;
 }
 
 .header-address-link {
