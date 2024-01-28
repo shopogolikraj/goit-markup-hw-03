@@ -222,12 +222,12 @@ img {
   padding-bottom: 120px;
 }
 
-.team-item {
+.team-list {
   display: flex;
   gap: 24px;
 }
 
-.team-list {
+.team-item {
   background-color: #ffffff;
   width: calc((100% - 72) / 4);
   border-radius: 0 0 4px 4px;
