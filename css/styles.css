@@ -38,19 +38,18 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 
 /* ==========HEADER============  */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-navigation {
@@ -70,7 +69,7 @@ img {
   margin-right: 76px;
 }
 
-.header-list {
+.header-menu-list {
   display: flex;
   gap: 40px;
 }
@@ -85,6 +84,7 @@ img {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 
 .header-menu-link:hover,
@@ -98,7 +98,7 @@ img {
   display: flex;
 }
 
-.address-list {
+.header-address-list {
   display: flex;
   gap: 40px;
 }
@@ -214,7 +214,7 @@ img {
 
 .team-item {
   background-color: #ffffff;
-  width: calc((100% - 72) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
 }
 
