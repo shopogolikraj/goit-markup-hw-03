@@ -9,8 +9,9 @@ body {
 ul,
 ol {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
@@ -24,7 +25,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 img {
@@ -52,19 +54,15 @@ img {
 
 .container {
   max-width: 1158px;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.hero-section {
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .title {
@@ -84,7 +82,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  /* margin-top: 32px; */
 }
 
 .text {
@@ -92,15 +89,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-.list {
-  display: flex;
-  gap: 24px;
-}
-
-/* .item {
-  width: calc((100% - 72px) / 4);
-} */
 
 /* ====================== */
 
@@ -131,7 +119,8 @@ img {
 }
 
 .header-logo {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: 76px;
 }
 
@@ -201,6 +190,8 @@ img {
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -229,6 +220,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn:hover,
@@ -242,10 +234,16 @@ img {
 
 .features {
 }
+
 .features-list {
+  display: flex;
+  gap: 24px;
 }
+
 .features-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
+
 .features-subtitle {
 }
 .features-text {
@@ -260,20 +258,22 @@ img {
 }
 .team-title {
 }
+
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-item {
   background-color: #fff;
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-img {
 }
 
-.team-container {
+.team-bottom {
   padding: 32px 0;
 }
 
@@ -291,6 +291,7 @@ img {
 
 .portfolio {
 }
+
 .portfolio-title {
 }
 
@@ -307,11 +308,10 @@ img {
 .portfolio-img {
 }
 
-.portfolio-container {
+.portfolio-bottom {
   padding: 32px 16px;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-subtitle {
@@ -330,10 +330,11 @@ img {
 
 .logo {
 }
+
 .footer-logo {
   display: inline-block;
-  /* margin-bottom: 16px; */
-  /* margin-bottom: 16px; */
+  margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 .logo-part {
 }
